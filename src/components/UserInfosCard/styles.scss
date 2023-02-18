@@ -1,0 +1,71 @@
+.github-user-infos-card-container {
+    padding-top: 54px;
+    .github-user-infos-card {
+        background-color: var(--gray-user-card-color);
+        display: flex;
+        padding: 44px 38px;
+        min-height: 334px;
+        border-radius: 8px;
+        border: 1px solid var(--gray-border-input);
+        .github-user-infos-card-avatar-img {
+            margin-right: 29px;
+            img {
+                border-radius: 8px;
+                width: 247px;
+            }
+        }
+        .github-user-infos-card-atributes {
+            border: 1px solid var(--gray-border-input);
+            border-radius: 8px;
+            width: 100%;
+            max-height: 247px;
+            padding: 8px 15px 17px 15px;
+            .github-user-infos-card-atributes-title {
+                margin-bottom: 20px;
+                h3 {
+                    font-size: 20px;
+                    font-weight: 500;
+                    line-height: 28px;
+                    color: var(--blue-color);
+                }
+            }
+            .inputs {
+                border: 1px solid var(--gray-border-input);
+                border-radius: 4px;
+                height: 40px;
+                padding: 8px 10px;
+                display: flex;
+                align-items: center;
+                label {
+                    font-size: 16px;
+                    font-weight: 700;
+                    line-height: 24px;
+                    color: var(--gray-card-item-color);
+                    margin-right: 5px;
+                }
+                p {
+                    font-size: 16px;
+                    font-weight: 400;
+                    line-height: 24px;
+                    color: var(--gray-card-item-color);
+                }
+                a {
+                    text-decoration: none;
+                    font-size: 16px;
+                    font-weight: 400;
+                    line-height: 24px;
+                    color: var(--blue-link-color);
+                }
+            }
+            .github-user-infos-card-atributes-url {
+                margin-bottom: 5px;
+            }
+            .github-user-infos-card-atributes-followers {
+                margin-bottom: 5px;
+            }
+            .github-user-infos-card-atributes-location {
+                margin-bottom: 5px;
+            }
+        }
+    }
+}

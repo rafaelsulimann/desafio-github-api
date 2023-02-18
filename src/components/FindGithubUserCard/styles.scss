@@ -1,0 +1,51 @@
+.find-github-user-container {
+    .find-github-user-card {
+      min-height: 270px;
+      padding: 54px 31px;
+      background-color: var(--blue-light-color);
+      border-radius: 16px;
+    .find-github-user-card-title {
+        margin-bottom: 12px;
+        h2 {
+            font-size: 38px;
+            font-weight: 500;
+            line-height: 46px;
+            color: var(--black-find-user-title);
+        }
+    }
+    .find-github-user-card-input {
+        margin-bottom: 24px;
+        input {
+            padding: 8px 17px;
+            width: 298px;
+            height: 40px;
+            border: 1px solid var(--gray-border-input);
+            border-radius: 4px;
+        }
+        ::placeholder {
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 24px;
+            color: var(--gray-placeholder-color);
+        }
+        :focus {
+            outline: none;
+            color: var(--black-find-user-title);
+        }
+    }
+    .find-github-user-card-submit-button {
+        button {
+            width: 101px;
+            height: 40px;
+            border: none;
+            border-radius: 4px;
+            color: var(--white-color);
+            background-color: var(--blue-color);
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 24px;
+            cursor: pointer;
+        }
+    }
+  }  
+}

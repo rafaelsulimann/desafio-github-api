@@ -1,0 +1,28 @@
+.home-index {
+    padding-top: 30px;
+    @media(max-width: 1400px){
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+    .challenge-github {
+        .challenge-github-container {
+            .challenge-github-title {
+                h2 {
+                    font-size: 48px;
+                    font-weight: 700;
+                    line-height: 64px;
+                    color: var(--black-color);
+                }
+            }
+            .challenge-github-infos {
+                margin-bottom: 30px;
+                h3 {
+                    font-size: 24px;
+                    font-weight: 700;
+                    line-height: 40px;
+                    color: var(--gray-color);
+                }
+            }
+        }
+    }
+}

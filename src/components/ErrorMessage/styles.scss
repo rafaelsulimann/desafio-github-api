@@ -1,0 +1,9 @@
+.error-message-container {
+    padding-top: 64px;
+    .error-message {
+        font-size: 38px;
+        font-weight: 500;
+        line-height: 46px;
+        color: var(--black-find-user-title);
+    }
+}

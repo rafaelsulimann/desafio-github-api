@@ -1,0 +1,22 @@
+.header {
+    background-color: var(--blue-color);
+    display: flex;
+    align-items: center;
+    .header-container {
+        @media(max-width: 1400px){
+            padding: 0px 40px;
+        }
+        .header-title {
+            display: flex;
+            .header-title-link{
+                text-decoration: none;
+                h1 {
+                    font-size: 24px;
+                    font-weight: 500;
+                    line-height: 32px;
+                    color: var(--white-color);
+                }
+            }
+        }
+    }
+}
