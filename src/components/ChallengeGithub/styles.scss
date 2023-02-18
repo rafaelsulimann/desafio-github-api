@@ -1,0 +1,19 @@
+.challenge-github-container {
+    .challenge-github-title {
+        h2 {
+            font-size: 48px;
+            font-weight: 700;
+            line-height: 64px;
+            color: var(--black-color);
+        }
+    }
+    .challenge-github-infos {
+        margin-bottom: 30px;
+        h3 {
+            font-size: 24px;
+            font-weight: 700;
+            line-height: 40px;
+            color: var(--gray-color);
+        }
+    }
+}

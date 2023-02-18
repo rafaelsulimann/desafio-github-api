@@ -17,7 +17,7 @@ export default function UserInfosCard({user} : Props) {
                 <h3>Informações</h3>
             </div>
             <div className="github-user-infos-card-atributes-url inputs">
-                <label htmlFor="url">Perfil:</label>
+                <label htmlFor="htmlUrl">Perfil:</label>
                 <a href={user.htmlUrl}>{user.htmlUrl}</a>
             </div>
             <div className="github-user-infos-card-atributes-followers inputs">
